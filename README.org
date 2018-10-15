@@ -1,8 +1,8 @@
-#+TITLE: README for jakobs-repo
+#+TITLE: README for zerodaysfordays
 #+AUTHOR: Jakob L. Kreuze
 #+EMAIL: zerodaysfordays@sdf.lonestar.org
-#+DATE:	2018-10-13
-#+UPDATE: 08:35:07
+#+DATE:	2018-10-15
+#+UPDATE: 08:57:11
 #+STARTUP: content
 
 * 1. What's this?
