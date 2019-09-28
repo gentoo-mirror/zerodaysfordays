@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DEPEND=media-libs/libsdl
+DESCRIPTION=Crossplatform music editor for creating Commodore 64 music
+EAPI=7
+HOMEPAGE=http://covertbitops.c64.org/
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/goattracker2/GoatTracker_2.75.zip
+_md5_=653ce5a2cebd2ab7707292b861415311
