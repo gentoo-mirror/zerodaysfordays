@@ -1,0 +1,9 @@
+DEFINED_PHASES=configure
+DESCRIPTION=A simple modern programming language
+EAPI=7
+HOMEPAGE=https://myrlang.org/
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://myrlang.org/releases/myrddin-0.3.0.tar.bz2
+_md5_=e8c102f587ebb9273ff996f3121b260b
