@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip x86? ( dev-lang/nasm ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/libsdl2[joystick,opengl?,sound,video] media-libs/sdl2-mixer[flac?,fluidsynth?,midi,timidity?,vorbis?] sys-libs/zlib flac? ( media-libs/flac ) gtk? ( x11-libs/gtk+:2 ) opengl? ( virtual/glu virtual/opengl ) png? ( media-libs/libpng:0= ) vpx? ( media-libs/libvpx:= ) vorbis? ( media-libs/libogg media-libs/libvorbis ) xmp? ( media-libs/exempi:2= ) timidity? ( media-sound/timidity++ )
+DESCRIPTION=Blood port based on EDuke32
+EAPI=7
+HOMEPAGE=https://nukeykt.retrohost.net/
+IUSE=flac fluidsynth gtk opengl png server sdk timidity vorbis vpx xmp
+KEYWORDS=~amd64 ~hppa ~x86
+LICENSE=BUILDLIC GPL-2
+PROPERTIES=live
+RDEPEND=media-libs/libsdl2[joystick,opengl?,sound,video] media-libs/sdl2-mixer[flac?,fluidsynth?,midi,timidity?,vorbis?] sys-libs/zlib flac? ( media-libs/flac ) gtk? ( x11-libs/gtk+:2 ) opengl? ( virtual/glu virtual/opengl ) png? ( media-libs/libpng:0= ) vpx? ( media-libs/libvpx:= ) vorbis? ( media-libs/libogg media-libs/libvorbis ) xmp? ( media-libs/exempi:2= )
+REQUIRED_USE=vpx? ( opengl )
+RESTRICT=bindist test
+SLOT=0
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=c746b316d8560fe8f6c3ce343365efc3

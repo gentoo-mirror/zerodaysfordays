@@ -2,3 +2,9 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+games-fps/doom64ex:system-fluidsynth - If disabled, use the fluidsynth-lite fork for audio.
+games-fps/nblood:fluidsynth - Install media-libs/sdl2-mixer with fluidsynth support.
+games-fps/nblood:sdk - Install the SDK files.
+games-fps/nblood:server - Enable support for multiplayer.
+games-fps/nblood:vpx - Enable support for media-libs/libvpx.
+games-fps/nblood:xmp - Enable support for media-libs/exempi.
