@@ -1,5 +1,6 @@
 dev-embedded/cc65 9999: Aa freeware C compiler for 6502 based systems
 dev-lang/myrddin 0.3.0: A simple modern programming language
+dev-scheme/guile-email 0.2.2: A collection of email utilities implemented in pure guile
 games-emulation/dosbox-x 9999: A fork of DOSBox, retaining compatibility with the wide base of DOS games and DOS gaming DOSBox was designed for.
 games-fps/chocolate-doom 9999: Doom source port that accurately reproduces the experience of Doom as it was played in the 1990s
 games-fps/crispy-doom 9999: Limit-raising medium-resolution Doom source port based on Chocolate Doom.
