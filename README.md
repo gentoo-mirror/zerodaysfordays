@@ -5,6 +5,7 @@ other overlays, or modifying less-than-ideals in the upstream ebuild repository.
 
 ## Software Packaged Here
 
+- [cackey](https://software.forge.mil/sf/frs/do/viewSummary/projects.community_cac/frs) as app-crypt/cackey
 - [cc65](http://cc65.github.io/) as dev-embedded/cc65
 - [chocolate-doom](http://www.chocolate-doom.org/) as games-fps/chocolate-doom
 - [crispy-doom](https://github.com/fabiangreffrath/crispy-doom) as games-fps/crispy-doom
