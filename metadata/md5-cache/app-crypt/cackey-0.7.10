@@ -1,0 +1,11 @@
+DEFINED_PHASES=-
+DEPEND=sys-apps/pcsc-lite sys-libs/zlib
+DESCRIPTION=Department of Defense Common Access Card PKCS#11 Provider
+EAPI=7
+HOMEPAGE=http://cackey.rkeene.org/fossil/home
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD GPL-2 MIT RSA
+RDEPEND=sys-apps/pcsc-lite sys-libs/zlib
+SLOT=0
+SRC_URI=http://cackey.rkeene.org/download/0.7.10/cackey-0.7.10.tar.gz
+_md5_=f3f6cb94c614c28bb08a73585e6eeaa0

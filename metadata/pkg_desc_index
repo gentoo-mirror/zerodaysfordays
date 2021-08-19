@@ -1,3 +1,4 @@
+app-crypt/cackey 0.7.10: Department of Defense Common Access Card PKCS#11 Provider
 dev-embedded/cc65 9999: Aa freeware C compiler for 6502 based systems
 dev-lang/myrddin 0.3.0: A simple modern programming language
 dev-scheme/guile-email 0.2.2: A collection of email utilities implemented in pure guile
