@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'http://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="person">
+		<email>zerodaysfordays@sdf.org</email>
+		<name>Jakob Kreuze</name>
+	</maintainer>
+	<use>
+		<flag name="build-tfa">Build the TF-A yourself - this requires an arm-none-eabi toolchain!</flag>
+	</use>
+</pkgmetadata>
