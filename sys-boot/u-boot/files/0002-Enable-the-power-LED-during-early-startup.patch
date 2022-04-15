@@ -1,17 +1,17 @@
-From 08e8ace48b5c3a31b44661ef22a8b8a459906d7e Mon Sep 17 00:00:00 2001
-From: Nadia Holmquist Pedersen <nadia@nhp.sh>
-Date: Sat, 20 Jun 2020 01:49:49 +0200
-Subject: [PATCH 3/3] Enable the power LED during early startup
+From 18600ddc0569ae424066add8e288dbc2e4d0e45c Mon Sep 17 00:00:00 2001
+From: "Jakob L. Kreuze" <zerodaysfordays@sdf.org>
+Date: Fri, 15 Apr 2022 18:37:37 -0400
+Subject: [PATCH 2/3] Enable the power LED during early startup
 
 ---
  arch/arm/mach-rockchip/rk3399/rk3399.c | 12 +++++++++++-
  1 file changed, 11 insertions(+), 1 deletion(-)
 
 diff --git a/arch/arm/mach-rockchip/rk3399/rk3399.c b/arch/arm/mach-rockchip/rk3399/rk3399.c
-index 4fda93b152..e24b39486d 100644
+index 2bc8e60b99..c7ba8a0595 100644
 --- a/arch/arm/mach-rockchip/rk3399/rk3399.c
 +++ b/arch/arm/mach-rockchip/rk3399/rk3399.c
-@@ -19,6 +19,8 @@
+@@ -20,6 +20,8 @@
  #include <asm/arch-rockchip/hardware.h>
  #include <linux/bitops.h>
  #include <power/regulator.h>
@@ -20,7 +20,7 @@ index 4fda93b152..e24b39486d 100644
  
  DECLARE_GLOBAL_DATA_PTR;
  
-@@ -119,8 +121,8 @@ void board_debug_uart_init(void)
+@@ -120,8 +122,8 @@ void board_debug_uart_init(void)
  	struct rk3399_grf_regs * const grf = (void *)GRF_BASE;
  #ifdef CONFIG_TARGET_CHROMEBOOK_BOB
  	struct rk3399_pmugrf_regs * const pmugrf = (void *)PMUGRF_BASE;
@@ -30,7 +30,7 @@ index 4fda93b152..e24b39486d 100644
  
  #if defined(CONFIG_DEBUG_UART_BASE) && (CONFIG_DEBUG_UART_BASE == 0xff180000)
  	/* Enable early UART0 on the RK3399 */
-@@ -153,6 +155,14 @@ void board_debug_uart_init(void)
+@@ -154,6 +156,14 @@ void board_debug_uart_init(void)
  	spl_gpio_set_pull(&pmugrf->gpio0_p, GPIO(BANK_B, 4), GPIO_PULL_NORMAL);
  #endif /* CONFIG_TARGET_CHROMEBOOK_BOB */
  
@@ -46,5 +46,5 @@ index 4fda93b152..e24b39486d 100644
  	rk_clrsetreg(&grf->gpio4c_iomux,
  		     GRF_GPIO4C3_SEL_MASK,
 -- 
-2.27.0
+2.35.1
 
