@@ -8,3 +8,4 @@ games-fps/nblood:sdk - Install the SDK files.
 games-fps/nblood:server - Enable support for multiplayer.
 games-fps/nblood:vpx - Enable support for media-libs/libvpx.
 games-fps/nblood:xmp - Enable support for media-libs/exempi.
+sys-boot/u-boot:build-tfa - Build the TF-A yourself - this requires an arm-none-eabi toolchain!
