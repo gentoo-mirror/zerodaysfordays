@@ -9,3 +9,4 @@ games-fps/nblood:server - Enable support for multiplayer.
 games-fps/nblood:vpx - Enable support for media-libs/libvpx.
 games-fps/nblood:xmp - Enable support for media-libs/exempi.
 sys-boot/u-boot:build-tfa - Build the TF-A yourself - this requires an arm-none-eabi toolchain!
+sys-kernel/pinebookpro-manjaro-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
