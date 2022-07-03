@@ -16,6 +16,7 @@ other overlays, or modifying less-than-ideals in the upstream ebuild repository.
 - [MilkyTracker](https://milkytracker.titandemo.org/) as media-sound/milkytracker
 - [NBlood](https://nukeykt.retrohost.net/) as games-fps/nblood
 - [xkeysnail](https://github.com/mooz/xkeysnail) as x11-misc/xkeysnail
+- [tagutil](https://github.com/kaworu/tagutil) as media-sound/tagutil
 
 Additionally, a number of packages from Jannik2099's now-abandoned
 `pinebookpro-overlay` see upkeep here. Use at your own peril.
