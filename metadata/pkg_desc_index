@@ -9,6 +9,8 @@ games-fps/crispy-doom 9999: Limit-raising medium-resolution Doom source port bas
 games-fps/nblood 9999: Blood port based on EDuke32
 media-sound/goattracker 2.75: Crossplatform music editor for creating Commodore 64 music
 media-sound/tagutil 3.1: Scriptable music files tags tool and editor
+sci-mathematics/lean 4.0.9999: The Lean Theorem Prover
 sys-boot/u-boot 2022.01: U-boot
 sys-kernel/pinebookpro-manjaro-sources 5.17.3: Full sources including the Gentoo patchset for the 5.17 kernel tree
 www-apps/haunt 0.2.4: Simple, functional, hackable static site generator.
+x11-misc/xremap 0.8.0: Key remapper for X11 and Wayland
