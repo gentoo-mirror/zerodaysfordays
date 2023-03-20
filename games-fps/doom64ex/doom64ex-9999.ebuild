@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake-utils git-r3
+inherit cmake git-r3
 
 DESCRIPTION="Recreation of Doom64 with additional modding features"
 HOMEPAGE="http://doom64ex.wordpress.com/"
