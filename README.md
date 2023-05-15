@@ -17,7 +17,6 @@ other overlays, or modifying less-than-ideals in the upstream ebuild repository.
 - [Lean 4](https://leanprover.github.io/) as sci-mathematics/lean
 - [MilkyTracker](https://milkytracker.titandemo.org/) as media-sound/milkytracker
 - [NBlood](https://nukeykt.retrohost.net/) as games-fps/nblood
-- [xkeysnail](https://github.com/mooz/xkeysnail) as x11-misc/xkeysnail
 - [xremap](https://github.com/k0kubun/xremap) as x11-misc/xremap
 - [tagutil](https://github.com/kaworu/tagutil) as media-sound/tagutil
 
