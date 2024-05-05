@@ -15,6 +15,7 @@ other overlays, or modifying less-than-ideals in the upstream ebuild repository.
 - [guile-email](https://guile-email.systemreboot.net/) as dev-scheme/guile-email
 - [GoatTracker 2](http://covertbitops.c64.org/) as media-sound/goattracker
 - [Lean 4](https://leanprover.github.io/) as sci-mathematics/lean
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) as sci-misc/llama-cpp
 - [MilkyTracker](https://milkytracker.titandemo.org/) as media-sound/milkytracker
 - [NBlood](https://nukeykt.retrohost.net/) as games-fps/nblood
 - [xremap](https://github.com/k0kubun/xremap) as x11-misc/xremap
