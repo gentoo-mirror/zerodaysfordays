@@ -12,6 +12,7 @@ media-sound/goattracker 2.75: Crossplatform music editor for creating Commodore 
 media-sound/milkytracker 1.0.0: FastTracker 2 inspired music tracker
 media-sound/tagutil 3.1: Scriptable music files tags tool and editor
 sci-mathematics/lean 4.0.9999: The Lean Theorem Prover
+sci-misc/llama-cpp 9999: Port of Facebook's LLaMA model in C/C++
 sys-boot/u-boot 2022.01: U-boot
 sys-kernel/pinebookpro-manjaro-sources 5.17.3: Full sources including the Gentoo patchset for the 5.17 kernel tree
 www-apps/haunt 0.2.4: Simple, functional, hackable static site generator.
