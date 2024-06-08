@@ -5,7 +5,6 @@ dev-scheme/guile-commonmark 0.1.2: Implementation of CommonMark for Guile
 dev-scheme/guile-email 0.2.2: A collection of email utilities implemented in pure guile
 games-emulation/dosbox-x 9999: A fork of DOSBox, retaining compatibility with the wide base of DOS games and DOS gaming DOSBox was designed for.
 games-fps/chocolate-doom 9999: Doom source port that accurately reproduces the experience of Doom as it was played in the 1990s
-games-fps/crispy-doom 9999: Limit-raising medium-resolution Doom source port based on Chocolate Doom.
 games-fps/doom64ex 9999: Recreation of Doom64 with additional modding features
 games-fps/nblood 9999: Blood port based on EDuke32
 media-sound/goattracker 2.75: Crossplatform music editor for creating Commodore 64 music
