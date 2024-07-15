@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=doc? ( app-text/linuxdoc-tools )
+DESCRIPTION=Aa freeware C compiler for 6502 based systems
+EAPI=7
+HOMEPAGE=https://cc65.github.io/cc65/
+INHERIT=git-r3
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=zlib
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=63b3cfe585ba14758e3bba8cc13b9970
