@@ -1,9 +1,9 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-inherit eutils autotools git-r3
+inherit autotools git-r3
 
 DESCRIPTION="Limit-raising medium-resolution Doom source port based on Chocolate Doom."
 HOMEPAGE="http://fabiangreffrath.github.io/crispy-doom"
@@ -21,23 +21,6 @@ DEPEND="${RDEPEND}"
 src_prepare() {
     eautoreconf
     default
-}
-
-src_install() {
-    # Currently, support for games such as heretc is disabled. See
-    # <https://github.com/fabiangreffrath/crispy-doom/issues/132>.
-    dobin src/crispy-doom
-    dobin src/crispy-setup
-    dobin src/crispy-server
-    dobin src/crispy-doom-setup
-
-    doman man/crispy-doom.6
-    doman man/crispy-doom-setup.6
-
-    doman man/default.cfg.5
-    doman man/crispy-doom.cfg.5
-
-    dodoc AUTHORS ChangeLog HACKING.md NEWS.md NOT-BUGS.md README* TODO.md
 }
 
 pkg_postinst() {
