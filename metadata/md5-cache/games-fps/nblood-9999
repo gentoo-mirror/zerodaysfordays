@@ -13,5 +13,5 @@ RDEPEND=media-libs/libsdl2[joystick,opengl?,sound,video] media-libs/sdl2-mixer[f
 REQUIRED_USE=vpx? ( opengl )
 RESTRICT=bindist test
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=c746b316d8560fe8f6c3ce343365efc3
