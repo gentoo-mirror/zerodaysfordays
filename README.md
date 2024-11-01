@@ -11,7 +11,6 @@ other overlays, or modifying less-than-ideals in the upstream ebuild repository.
 - [crispy-doom](https://github.com/fabiangreffrath/crispy-doom) as games-fps/crispy-doom
 - [Doom64EX](https://doom64ex.wordpress.com/) as games-fps/doom64ex
 - [dosbox-x](https://github.com/joncampbell123/dosbox-x) as games-emulation/dosbox-x
-- [guile-commonmark](https://github.com/OrangeShark/guile-commonmark) as dev-scheme/guile-commonmark
 - [guile-email](https://guile-email.systemreboot.net/) as dev-scheme/guile-email
 - [GoatTracker 2](http://covertbitops.c64.org/) as media-sound/goattracker
 - [Lean 4](https://leanprover.github.io/) as sci-mathematics/lean
